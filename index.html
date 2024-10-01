@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Caesar Cipher</title>
+</head>
+
+<body>
+    <img class="image" src="assets/cifra.jpeg" alt=""/>
+    <h1 class="message">Encrypt your message</h1>
+    <div class="field text">
+        <label for="to-encrypt">Enter your message:</label>
+        <input type="text" class="input" id="to-encrypt"/>
+    </div>
+    <div class="field selector">
+        <label for="replacement">Change the beginning of the alphabet to: </label>
+        <select id="replacement" class="input">
+            
+        </select>
+    </div>
+    <button id="button" class="button">Encrypt</button>
+    <p class="invisible" id="answer"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
